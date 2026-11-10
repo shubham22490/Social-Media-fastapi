@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+
+.agents/
+AGENTS.md
+
+.env
+.env.*
+!.env.example
+
+main_archive.py
+alembic/versions/*

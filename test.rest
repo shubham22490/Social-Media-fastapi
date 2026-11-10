@@ -1,0 +1,23 @@
+@baseUrl = http://127.0.0.1:8000
+
+POST {{baseUrl}}/items
+Content-Type: application/json
+
+{
+    "name": "Shubham", 
+    "price": 123,
+    "description": "Hello Moto!",
+    "tax": "10"
+}
+
+###
+
+PUT {{baseUrl}}/items/1
+Content-Type: application/json
+
+{
+    "name": "Shubham", 
+    "price": 123,
+    "description": "Hello Moto!",
+    "tax": "10"
+}
